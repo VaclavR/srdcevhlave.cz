@@ -7,11 +7,6 @@ html {
     font-family: var(--font-open-sans), sans-serif;
 }
 
-.video iframe {
-    width: 100%;
-    height: 100%;
-}
-
 h1, h2 {
     /*noinspection CssUnresolvedCustomProperty*/
     font-family: var(--font-raleway), sans-serif;
