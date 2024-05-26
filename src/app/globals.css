@@ -20,6 +20,23 @@ h1, h2 {
     @apply block absolute w-[9.375rem] h-[0.125rem] bg-[#e40f48] left-1/2 -translate-x-1/2 bottom-[2.1875rem] content-['']
 }
 
+.container {
+    @apply w-[78.125rem] max-w-full mx-auto px-[3.125rem]
+}
+
+.nav-link {
+    @apply text-black border-b-2 border-white leading-7
+}
+
+.nav-link-active {
+    @apply text-red border-red
+}
+
+.nav-link:hover {
+    @apply nav-link-active
+}
+
+
 .paragraph {
     @apply leading-[1.5] mb-5;
 }

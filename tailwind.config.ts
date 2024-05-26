@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'overlay': 'rgba(13,31,48,0.7)'
+        'overlay': 'rgba(13,31,48,0.7)',
+        'red': '#e40f48'
       },
       backgroundImage: {
         'hero': "url('/images/hero.jpg')",
