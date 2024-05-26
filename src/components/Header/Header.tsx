@@ -16,7 +16,7 @@ export default function Header() {
     const pathname = usePathname()
     console.log('pathname', pathname)
     return (
-        <header>
+        <header className={`fixed w-full bg-white z-10`}>
             <div className={`container flex justify-between items-center py-[1.34375rem]`}>
                 <Link href={`/`}>
                     <Image src={'/images/logo.png'} alt={'Logo Srdce v hlavě'} width={250} height={57}/>

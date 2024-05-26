@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function AboutProject() {
     return (
-        <main>
+        <>
             <Hero title={`O projektu`}></Hero>
             <Container>
                 <div className={`mt-5 mb-12 w-[50rem] max-w-full mx-auto`}>
@@ -41,6 +41,6 @@ export default function AboutProject() {
                     </div>
                 </Container>
             </div>
-        </main>
+        </>
     )
 }
